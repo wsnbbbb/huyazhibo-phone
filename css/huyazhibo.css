@@ -1,0 +1,635 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: Helvetica,"Droid Sans",sans-serif;
+    color: #333;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	position: fixed;
+    top: 0;
+    left: 0;
+    height:3.1rem;
+    width: 100%;
+    background-color: #fff;
+    z-index:101;
+    display: block;
+}
+.hykt{
+	position: relative;
+    height:1.2rem;
+    padding-top:0.4rem;
+    border-bottom: 1px solid #EDEDED;
+    background: #fff;
+    z-index: 1;
+}
+.logo{
+	float: left;
+    margin-left: 2%;
+    width: 3.1rem;
+    height: 0.9rem;
+    background: url(../image/logo.png);
+    background-size: 100% 100%;
+}
+.dkapp{
+	float: right;
+    margin-right: 2%;
+    width: 2.6rem;
+    height: 0.8rem;
+    font-size: 0.4rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.4rem;
+    background: #FFA200;
+}
+.shous{
+	float: right;
+    width: 1.3rem;
+    height: 0.8rem;
+    margin-right: 3%;
+    background: #F4F4F4;
+    border-radius: 0.4rem;
+    
+}
+.sstb{
+	display: block;
+    margin: 0.1rem auto;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../image/搜索图标.png);
+    background-size: 100% 100%;
+}
+.lm{
+	position: relative;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    background: #fff;
+    display: block;
+}
+
+.lmjs{
+	padding: 0 1.2rem 0 0.3rem;
+    font-size: 0.4rem;
+    line-height: 1.4rem;    
+}
+.lmjs1{
+	overflow: scroll;
+	position: relative;
+    font-size: 0.4rem;
+    line-height: 1.4rem;   
+}
+.lmjs2{
+	white-space: nowrap;
+	font-size: 0.4rem;
+	line-height: 1.4rem;
+}
+.shouye{
+	color: #FFA200;
+    border-bottom: 2px solid;
+    line-height: 0.7rem;
+    padding: 2px 0;
+    margin-right: 0.6rem;
+    font-size: 0.4rem;
+}
+.wzry{
+	color: #151515;
+    line-height: 0.7rem;
+    padding: 2px 0;
+    margin-right: 0.6rem;
+    white-space: nowrap;
+    font-size: 0.4rem;
+}
+.shouf{
+	position: absolute;
+    top: 0.4rem;
+    right: 0.3rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url(../image/shouf.png);
+    background-size: 100% 100%;;
+}
+.warp{
+/*	min-height: 100%;*/
+    position: relative;
+}
+.zhuti{
+	padding-top: 3.1rem;
+	/*padding-bottom: 1.5rem;*/
+}
+.lunbo{
+	width:10rem;
+    height: 3.2rem;
+   /* padding-bottom: 32.8%;*/
+    position: relative;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.lblb{
+	list-style: none;
+	width: 700%;
+	animation: lunbo 25s linear infinite;
+}
+.lblb>li{
+	width:10rem ;
+    height: 3.2rem ;
+    float: left;    
+}
+.lunbo img{
+	width: 10rem;
+	height: 3.2rem;
+}
+@keyframes lunbo{
+				0%,15% {
+					margin-left: 0px;
+				}
+				17%,32%{
+					margin-left: -100%;
+				}
+				34%,49% {
+					margin-left: -200%;
+				}
+				51%,66% {
+					margin-left:-300%;
+				}
+				68%,82%{
+					margin-left: -400%;
+				}
+				83%,98% {
+					margin-left: -500%;
+				}
+				100% {
+					margin-left:-600%;
+				}
+				
+}
+.rmzb{
+	width: 10rem;
+	height:14.5rem;
+	/*background: red;*/
+}
+.qbzd{
+	position: relative;
+    padding: 0.3rem 0.2rem 0.4rem;  
+}
+.hy{
+	float: left;
+    width: 6.2rem;
+}
+.hy1{
+	background: url(../image/火焰.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy3{
+	display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #333;
+    font-size: 0.5rem;
+}
+.more{
+	width: 1.3rem;
+    float: right;
+    padding: 2px 0 5px 10px;
+    font-size: 0.4rem;
+    color: #666;
+    text-decoration: none;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+}
+.zblb{
+	display: flex;
+	width: 10rem;
+	height: 12.9rem;
+	/*background: green;*/
+	flex-wrap: wrap;
+}
+.zblb1{
+	width: 47%;
+	height: 4.3rem;
+    margin-left: 2%;
+    padding-bottom: 0.3rem;
+   /* background: yellow;*/
+}
+.zblb2{
+	position: relative;
+	height: 2.6rem;
+}
+.dxc{
+	font-size: 0.3rem;
+    position: absolute;
+    z-index: 2;
+    top: 3px;
+    right: 3px;
+    padding: 2px 6px;
+    vertical-align: middle;
+    color: #eee;
+    background: rgba(44,49,54,.7);
+}
+.crtp1{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width:4.7rem;
+    height: 2.6rem;
+    border-radius: 5px;
+}
+.title{
+    font-size: 0.4rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zbmz{
+	max-width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #999;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    float: left;
+}
+.rs{
+	float: right;
+	color: #999;
+	line-height: 0.4rem;
+    font-size: 0.3rem
+}
+
+.rt{
+	float: right;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url(../image/人头.png);
+    background-size: 100%;
+    color: #999;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    margin-top: -1px;
+    margin-right: 1px;
+}
+.rmzb2{
+	width: 10rem;
+	height: 10.2rem;
+	/*background: pink;*/
+	margin-top:0.3rem;
+}
+.zblber{
+	display: flex;
+	width: 10rem;
+	height: 8.6rem;
+	/*background: green;*/
+	flex-wrap: wrap;
+	}
+	
+.hy12{
+	background:url(../image/英雄联盟.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy13{
+	background:url(../image/王者荣耀.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.rmzb21{
+	width: 10rem;
+	height: 14.3rem;
+	/*background: peru;*/
+	margin-top:0.3rem;
+}
+.zblber1{
+	display: flex;
+	width: 10rem;
+	height: 12.7rem;
+	/*background: green;*/
+	flex-wrap: wrap;
+}
+.zblb12{
+	width: 47%;
+	height: 4.7rem;
+    margin-left: 2%;
+    padding-bottom: 0.4rem;
+    /*background: yellow;*/
+}
+.zblb21{
+	position: relative;
+	height: 4.7rem;
+}
+.crtp2{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width:4.7rem;
+    height: 4.7rem;
+    border-radius: 5px;
+}
+.hy14{
+	background:url(../image/星秀.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy15{
+	background:url(../image/吃喝玩乐.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy16{
+	background:url(../image/和平精英.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy17{
+	background:url(../image/绝地求生.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy18{
+	background:url(../image/二次元.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy19{
+	background:url(../image/颜值.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy20{
+	background:url(../image/主机游戏.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy21{
+	background:url(../image/穿越火线.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy22{
+	background:url(../image/自走棋手游.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy23{
+	background:url(../image/我的世界.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy24{
+	background:url(../image/dnf.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy25{
+	background:url(../image/交友.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy26{
+	background:url(../image/暴雪专区.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy27{
+	background:url(../image/休闲手游.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy28{
+	background:url(../image/休闲棋牌.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy29{
+	background:url(../image/本周新游.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy30{
+	background:url(../image/球球大作战.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.hy31{
+	background:url(../image/cf手游.png);
+	width: 0.7rem;
+    height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.foot{
+	color: #999;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.3rem;
+    margin-top: 0.6rem;
+}
+.foot p{
+	line-height: 0.7rem;
+    font-size: 0.3rem;
+    color: #999;
+    display: block;
+}
+.foot>p:nth-child(2){
+	margin-bottom: 1.5rem;
+}
+.app{
+	color: #999999;
+	text-decoration: none;
+	line-height: 0.7rem;
+    font-size: 0.3rem;   
+}
+.ybl{
+	width: 1.1rem;
+	height: 3.7rem;
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    z-index: 10;
+    /*background: yellowgreen;*/
+}
+.ybl2{
+    list-style: none;
+}
+.ybl3{
+	background-color: rgba(46,46,58,.7);
+    color: #fff;
+    text-align: center;
+    width: 1.1rem;
+    font-size: 0.3rem;
+    margin-bottom: 2px;
+    height: 1rem;
+    padding: 3px 0 2px;
+    border-radius: 3px 0 0 3px;
+}
+.fhdb{
+	background: url(../image/箭头.png);
+	display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.fk{
+	display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+.fk1{
+	background: url(../image/反馈.png);
+	display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.fk2{
+	background:url(../image/开播.png);
+	display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 0.3rem;
+}
